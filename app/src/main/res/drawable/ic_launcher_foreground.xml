@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!--
+        Иконка: лист вырастающий из штрихкода.
+        Метафора: "читай что внутри продукта".
+        Лист: y 22–52, центр x=54
+        Штрихкод: y 58–82, центр x=54
+    -->
+
+    <!-- ── Лист (белый) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,52 C42,50 37,32 54,22 C71,32 66,50 54,52 Z"/>
+
+    <!-- Жилка листа (акцентный зелёный) -->
+    <path
+        android:strokeColor="#4ADE80"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,51 L54,24"/>
+
+    <!-- ── Штрихкод (белый) ── -->
+
+    <!-- Полоса 1 — высокая левая -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,58 h5 v24 h-5 z"/>
+
+    <!-- Полоса 2 — короткая левая -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,64 h3 v18 h-3 z"/>
+
+    <!-- Полоса 3 — высокая центральная (широкая) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,58 h6 v24 h-6 z"/>
+
+    <!-- Полоса 4 — короткая правая -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,64 h3 v18 h-3 z"/>
+
+    <!-- Полоса 5 — высокая правая -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,58 h5 v24 h-5 z"/>
+
+</vector>
